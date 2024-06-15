@@ -47,7 +47,6 @@
   .rectangle-parent {
     width: 270px;
     position: relative;
-    box-shadow: 0 4px 250px #ce09ff;
     height: 64px;
   }
   .group-wrapper {
