@@ -1,3 +1,4 @@
+
 .next-gen {
     top: 124px;
     width: 527px;
@@ -7,12 +8,12 @@
   .next-gen,
   .virtual-reality {
     position: absolute;
-    left: 93px;
+    left: 23px;
     display: inline-block;
   }
   .virtual-reality {
-    top: 220px;
-    font-size: 56px;
+    top: 170px;
+    font-size: 26px;
     background: linear-gradient(92.47deg, #26e6f2, #9113b0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -20,9 +21,82 @@
     opacity: 0.95;
   }
   .ive-developed-a {
-    top: 312px;
-    font-size: 24px;
+    top: 212px;
+    font-size: 14px;
     font-family: var(--font-hahmlet);
+    width: 340px;
+    height: 209px;
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    border-radius: 50px;
+    background: linear-gradient(92.47deg, #26e6f2, #9113b0);
+    width: 170px;
+    height: 44px;
+    opacity: 0.95;
+  }
+  .click-here-to {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    display: inline-block;
+    width: 209px;
+    height: 26px;
+  }
+  .rectangle-parent {
+    width: 270px;
+    position: relative;
+    
+    height: 64px;
+  }
+  .group-wrapper {
+    text-decoration: none;
+    position: absolute;
+    top: 465px;
+    left: 22px;
+    filter: drop-shadow(0 4px 250px rgba(0, 0, 0, 0.25));
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: inherit;
+    font-family: var(--font-itim);
+  }
+  .next-gen-parent {
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    background-color: #18042e;
+    height: 829px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 40px;
+    color: var(--color-white);
+    font-family: var(--font-josefin-sans);
+  }
+  
+  @media only screen and (min-width:380px) {
+      .next-gen{
+        font-size: 96px;
+      }
+      .virtual-reality{
+        font-size:56px;
+        top: 220px;
+      }
+      .ive-developed-a,
+      .next-gen,
+      .virtual-reality {
+        position: absolute;
+        left: 93px;
+        display: inline-block;
+  }
+  .ive-developed-a {
+    font-size: 24px;
+    top: 312px;
     width: 975px;
     height: 209px;
   }
@@ -36,20 +110,7 @@
     height: 64px;
     opacity: 0.95;
   }
-  .click-here-to {
-    position: absolute;
-    top: 14px;
-    left: calc(50% - 91px);
-    display: inline-block;
-    width: 209px;
-    height: 26px;
-  }
-  .rectangle-parent {
-    width: 270px;
-    position: relative;
-    height: 64px;
-  }
-  .group-wrapper {
+    .group-wrapper {
     text-decoration: none;
     position: absolute;
     top: 604px;
@@ -64,16 +125,12 @@
     color: inherit;
     font-family: var(--font-itim);
   }
-  .next-gen-parent {
-    width: 100%;
-    position: relative;
-    border-radius: 20px;
-    background-color: #18042e;
-    height: 829px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 96px;
-    color: var(--color-white);
-    font-family: var(--font-josefin-sans);
+  .click-here-to {
+    position: absolute;
+    top: 14px;
+    left: calc(50% - 91px);
+    display: inline-block;
+    width: 209px;
+    height: 26px;
   }
-  
+}
