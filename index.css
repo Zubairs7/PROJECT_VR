@@ -79,7 +79,7 @@
     font-family: var(--font-josefin-sans);
   }
   
-  @media only screen and (min-width:380px) {
+  @media only screen and (min-width:390px) {
       .next-gen{
         font-size: 96px;
       }
