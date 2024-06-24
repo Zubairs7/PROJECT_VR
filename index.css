@@ -69,7 +69,7 @@
   .next-gen-parent {
     width: 100%;
     position: relative;
-    border-radius: 20px;
+    border-radius: 0px;
     background-color: #18042e;
     height: 829px;
     overflow: hidden;
